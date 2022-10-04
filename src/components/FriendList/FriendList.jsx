@@ -13,7 +13,7 @@ export const FriendList = ({ friends }) => {
             alt="User avatar"
             width="48"
           />
-          <FriendName className="name">{friend.name}</FriendName>
+          <FriendName>{friend.name}</FriendName>
         </FriendsItem>
       ))}
     </FriendsRoster>
